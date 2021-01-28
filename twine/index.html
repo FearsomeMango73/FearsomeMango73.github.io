@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play The Story.</tw-noscript></noscript></tw-story>
-<tw-storydata name="The Story" startnode="1" creator="Twine" creator-version="2.3.10" ifid="8CCE4C1F-9D80-4972-9EE9-FA9FDBF4017A" zoom="1" format="Harlowe" format-version="3.2.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story{
+<tw-storydata name="The Story" startnode="1" creator="Twine" creator-version="2.3.10" ifid="8CCE4C1F-9D80-4972-9EE9-FA9FDBF4017A" zoom="0.6" format="Harlowe" format-version="3.2.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story{
   background-color: white;
 }
 
@@ -35,7 +35,7 @@ What color is it?]
 (text-colour:red)+(background:white)[&#39;&#39;[[Red]]&#39;&#39;]
 
 (text-colour:blue)+(background:white)[&#39;&#39;[[Blue]]&#39;&#39;]</tw-passagedata><tw-passagedata pid="4" name="paper" tags="" position="525,325" size="100,100">(if: $beginningOfStory is &quot;&#39;&#39;[[touches]]&#39;&#39; the &#39;&#39;[[paper]]&#39;&#39;....a &#39;&#39;[[mark]]&#39;&#39; is left&quot;)[(set: $paperStatus to &quot;Just staring at the page wont create a story&quot;)]
-(elseif: $paperStatus is &quot; &quot;)[(set: $paperStatus to &quot;It&#39;s &#39;&#39;[[empty-&gt;A story to be told]]&#39;&#39; blankness bring you back&quot;)]
+(elseif: $paperStatus is &quot; &quot;)[(set: $paperStatus to &quot;It&#39;s &#39;&#39;[[empty-&gt;A story to be told]]&#39;&#39; blankness brings you back&quot;)]
 
 
 (text-colour:$penColor) [ $paperStatus]</tw-passagedata><tw-passagedata pid="5" name="touches" tags="" position="600,475" size="100,100">(set: $power to &quot;off&quot;)
@@ -204,7 +204,7 @@ The cry of the creative drives you [[further]] into the writings, while the clic
 ]</tw-passagedata><tw-passagedata pid="29" name="Lucky" tags="" position="175,800" size="100,100">(text-colour:$penColor)[
 
 
-Sometimes you are luck to [[finish the story]]
+Sometimes you are lucky to [[finish the story]]
 
 but sometimes, you wind up right were you [[started-&gt;A story to be told]]
 
